@@ -1,0 +1,23 @@
+.modal-bg {
+    background: rgba(0,0,0,0.7);
+}
+
+.modal-burger-enter {
+    opacity: 0;
+    transform: translateY(-100%);
+}
+.modal-burger-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 300ms;
+}
+.modal-burger-exit {
+    opacity: 1;
+    transform: translateY(0);
+}
+.modal-burger-exit-active {
+    opacity: 0;
+    transform: translateY(-100%);
+    /*transform: scale(0.9);*/
+    transition: 300ms;
+}
